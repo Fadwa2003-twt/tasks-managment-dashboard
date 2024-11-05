@@ -57,7 +57,7 @@ app.use("/api/stages", stageRoutes);
 app.use("/api/chats", chatRoutes);
 app.use("/api/roles", roleRoutes);
 app.use("/api/attendance", attendanceRoutes);
-app.use("/api/socialMedia", socialMediaRoutes);
+// app.use("/api/socialMedia", socialMediaRoutes);
 app.use("/uploads", express.static("uploads"));
 app.use("/uploads/chatFiles", express.static("uploads/chatFiles"));
 app.use("/", (req, res) =>
